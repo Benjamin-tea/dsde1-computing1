@@ -12,5 +12,6 @@ def period(L, g):
         return
     if (L / g) < 0:
         print(ii)
+        return
     T = (2 * math.pi) * ((L / g) ** 0.5) 
     return T
